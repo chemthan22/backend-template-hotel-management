@@ -1,0 +1,16 @@
+{
+  "name": "backend-hotel-management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"nodemon src/index.js"
+  },
+  "author": "vudang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.11",
+    "nodemon": "^2.0.6"
+  }
+}
