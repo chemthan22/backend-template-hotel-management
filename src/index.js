@@ -2,10 +2,10 @@ const express = require('express');
 const mongoose = require('mongoose');
 const dbConfig = require('./config/db.config');
 const app = express();
+app.use(express.json())
 
-//const port = process.env.PORT || 3000;
-const port = 5000;
-app.listen((e) => {
+const port = process.env.PORT || 3000;
+app.listen(port,(e) => {
     if(e) console.log(e)
     console.log(`Server is running on port : ${port} `)
 })
